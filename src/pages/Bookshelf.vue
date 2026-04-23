@@ -207,7 +207,6 @@ async function clearCache(): Promise<void> {
 async function addTestBooks(): Promise<void> {
   isProcessing.value = true
   const testFiles = [
-    { name: 'test.epub', path: '/test.epub' },
     { name: 'test.txt', path: '/test.txt' }
   ]
 
